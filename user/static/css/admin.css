@@ -1,0 +1,62 @@
+#header{
+    background: black;
+}
+
+#container > .main {
+    background: #424242;
+}
+
+h1{
+    color: #fff;
+}
+
+.module h2, .module caption, .inline-group h2 {
+    background: #182126;
+}
+
+#content-related {
+    border-radius: 15px;
+}
+
+div.breadcrumbs {
+    background: #1e3039;
+}
+
+.module {
+    background: #0000009e
+}
+
+.required label, label.required {
+    font-weight: bold;
+    color: #fff !important;
+}
+
+.help, p.help, form p.help, div.help, form div.help, div.help li {
+    color: #fff;
+}
+
+.submit-row {
+    background: #0000009e !important;
+    border: none !important;
+}
+
+.submit-row input{
+    background: #585858ba !important;
+}
+
+.submit-row input:hover{
+    background: #4e342e !important;
+}
+
+#nav-sidebar {
+    background-color: #0000007d !important;
+
+}
+
+body{
+    color: #fff;
+}
+
+#changelist .actions {
+    color: #000;
+}

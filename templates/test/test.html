@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test2</title>
+</head>
+<body>
+
+{% for i in qs %}
+    name = {{i.username}}<br>
+    tag = {{i.interests_tags.all|join:", "}}<br>
+    own = {{i.own_interests.all|join:", "}}<br><br>
+{% endfor %}
+</body>
+</html>
